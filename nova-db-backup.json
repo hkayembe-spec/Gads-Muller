@@ -1,0 +1,880 @@
+{
+  "users": [
+    {
+      "id": "dir-1",
+      "username": "Novacasino",
+      "name": "Directeur Général",
+      "password": "Muller2@",
+      "role": "director",
+      "createdBy": null,
+      "isLocked": false,
+      "status": "online",
+      "lastActive": 1782542995846
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_1782337048721_ixezb",
+      "clientName": "Erick Gola ",
+      "consoleNumber": "Console 01",
+      "phoneNumber": "+243525689324",
+      "consoleType": "ps5",
+      "matchesCount": 10,
+      "costPerMatch": 0.5,
+      "drinksCount": 2,
+      "snacksCount": 3,
+      "drinksAmount": 1.6,
+      "snacksAmount": 3,
+      "totalAmount": 9.6,
+      "paymentStatus": "paid",
+      "paymentValidatedBy": "dir-1",
+      "createdBy": "dir-1",
+      "createdByName": "Directeur Général",
+      "createdAt": "2026-06-24T21:37:28.721Z",
+      "updatedAt": "2026-06-24T21:37:49.063Z",
+      "roomId": "room-default",
+      "paymentMethod": "mobile_money",
+      "paymentValidatedByName": "Directeur Général"
+    },
+    {
+      "id": "sess_1782337244388_ao37a",
+      "clientName": "Lumbo",
+      "consoleNumber": "Console 01",
+      "phoneNumber": "",
+      "consoleType": "ps4",
+      "matchesCount": 50,
+      "costPerMatch": 0.25,
+      "drinksCount": 4,
+      "snacksCount": 2,
+      "drinksAmount": 3.2,
+      "snacksAmount": 2,
+      "totalAmount": 17.7,
+      "paymentStatus": "paid",
+      "paymentValidatedBy": "dir-1",
+      "createdBy": "dir-1",
+      "createdByName": "Directeur Général",
+      "createdAt": "2026-06-24T21:40:44.388Z",
+      "updatedAt": "2026-06-24T21:41:02.597Z",
+      "roomId": "room-default",
+      "paymentMethod": "cash",
+      "paymentValidatedByName": "Directeur Général"
+    },
+    {
+      "id": "sess_1782337541457_z7sn5",
+      "clientName": "Henock ",
+      "consoleNumber": "Console 11",
+      "phoneNumber": "",
+      "consoleType": "ps3",
+      "matchesCount": 583,
+      "costPerMatch": 0.1,
+      "drinksCount": 8,
+      "snacksCount": 8,
+      "drinksAmount": 6.4,
+      "snacksAmount": 8,
+      "totalAmount": 72.7,
+      "paymentStatus": "paid",
+      "paymentValidatedBy": "dir-1",
+      "createdBy": "dir-1",
+      "createdByName": "Directeur Général",
+      "createdAt": "2026-06-24T21:45:41.457Z",
+      "updatedAt": "2026-06-24T21:46:05.599Z",
+      "roomId": "room-default",
+      "paymentMethod": "card",
+      "paymentValidatedByName": "Directeur Général"
+    }
+  ],
+  "deleteRequests": [],
+  "logs": [
+    {
+      "id": "log-init",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Initialisation du système central Nova Casino dans Firestore",
+      "timestamp": "2026-06-22T08:45:19.338Z"
+    },
+    {
+      "id": "log_1782122537653_05t8m",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Connexion réussie",
+      "timestamp": "2026-06-22T10:02:17.653Z"
+    },
+    {
+      "id": "log_1782231749401_kn70b",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Initialisation automatique du stock de réserve par défaut",
+      "timestamp": "2026-06-23T16:22:29.401Z"
+    },
+    {
+      "id": "log_1782233618398_mjuvt",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 16)",
+      "timestamp": "2026-06-23T16:53:38.398Z"
+    },
+    {
+      "id": "log_1782233619078_mqa90",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 17)",
+      "timestamp": "2026-06-23T16:53:39.078Z"
+    },
+    {
+      "id": "log_1782233630875_wr37h",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 18)",
+      "timestamp": "2026-06-23T16:53:50.875Z"
+    },
+    {
+      "id": "log_1782233631107_24rq9",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 19)",
+      "timestamp": "2026-06-23T16:53:51.107Z"
+    },
+    {
+      "id": "log_1782233631294_3jmcy",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 20)",
+      "timestamp": "2026-06-23T16:53:51.294Z"
+    },
+    {
+      "id": "log_1782233633243_kspop",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 21)",
+      "timestamp": "2026-06-23T16:53:53.243Z"
+    },
+    {
+      "id": "log_1782233633989_yakma",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 22)",
+      "timestamp": "2026-06-23T16:53:53.989Z"
+    },
+    {
+      "id": "log_1782233634171_opog1",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 23)",
+      "timestamp": "2026-06-23T16:53:54.171Z"
+    },
+    {
+      "id": "log_1782233634371_jn537",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 24)",
+      "timestamp": "2026-06-23T16:53:54.371Z"
+    },
+    {
+      "id": "log_1782233634671_f45p9",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Manettes PS4/PS5: +1 (Nouveau stock: 25)",
+      "timestamp": "2026-06-23T16:53:54.671Z"
+    },
+    {
+      "id": "log_1782234687633_6mcbh",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Manettes PS4/PS5 (25 en stock)",
+      "timestamp": "2026-06-23T17:11:27.633Z"
+    },
+    {
+      "id": "log_1782234719647_ypc0q",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Manettes PS4/PS5 (25 en stock)",
+      "timestamp": "2026-06-23T17:11:59.647Z"
+    },
+    {
+      "id": "log_1782235217185_m4vh9",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Consoles PlayStation 5 Digital (10 en stock)",
+      "timestamp": "2026-06-23T17:20:17.185Z"
+    },
+    {
+      "id": "log_1782235838340_f1qjb",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 11)",
+      "timestamp": "2026-06-23T17:30:38.340Z"
+    },
+    {
+      "id": "log_1782235838618_p84uu",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 10)",
+      "timestamp": "2026-06-23T17:30:38.618Z"
+    },
+    {
+      "id": "log_1782235838804_380mj",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 9)",
+      "timestamp": "2026-06-23T17:30:38.804Z"
+    },
+    {
+      "id": "log_1782235838989_23u6l",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 8)",
+      "timestamp": "2026-06-23T17:30:38.989Z"
+    },
+    {
+      "id": "log_1782235839166_bjpl4",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 7)",
+      "timestamp": "2026-06-23T17:30:39.166Z"
+    },
+    {
+      "id": "log_1782235839398_vttht",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 6)",
+      "timestamp": "2026-06-23T17:30:39.398Z"
+    },
+    {
+      "id": "log_1782235879317_dm101",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 9)",
+      "timestamp": "2026-06-23T17:31:19.317Z"
+    },
+    {
+      "id": "log_1782235883420_pgj7r",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 8)",
+      "timestamp": "2026-06-23T17:31:23.420Z"
+    },
+    {
+      "id": "log_1782235886240_wozga",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 7)",
+      "timestamp": "2026-06-23T17:31:26.240Z"
+    },
+    {
+      "id": "log_1782235886468_lyzp5",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 6)",
+      "timestamp": "2026-06-23T17:31:26.468Z"
+    },
+    {
+      "id": "log_1782235886679_sy519",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 5)",
+      "timestamp": "2026-06-23T17:31:26.679Z"
+    },
+    {
+      "id": "log_1782235886914_o0jvc",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 4)",
+      "timestamp": "2026-06-23T17:31:26.914Z"
+    },
+    {
+      "id": "log_1782235887145_bk4o3",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 3)",
+      "timestamp": "2026-06-23T17:31:27.145Z"
+    },
+    {
+      "id": "log_1782235887403_xw8d9",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 2)",
+      "timestamp": "2026-06-23T17:31:27.403Z"
+    },
+    {
+      "id": "log_1782235889123_j2lrg",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 1)",
+      "timestamp": "2026-06-23T17:31:29.123Z"
+    },
+    {
+      "id": "log_1782235889300_bex9o",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles HDMI High-Speed: -1 (Nouveau stock: 0)",
+      "timestamp": "2026-06-23T17:31:29.300Z"
+    },
+    {
+      "id": "log_1782235895377_tqymu",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Consoles PlayStation 5 Digital: -1 (Nouveau stock: 9)",
+      "timestamp": "2026-06-23T17:31:35.377Z"
+    },
+    {
+      "id": "log_1782235895930_ntxr3",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Consoles PlayStation 5 Digital: -1 (Nouveau stock: 8)",
+      "timestamp": "2026-06-23T17:31:35.930Z"
+    },
+    {
+      "id": "log_1782235898024_ymgh3",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Consoles PlayStation 5 Digital: -1 (Nouveau stock: 7)",
+      "timestamp": "2026-06-23T17:31:38.024Z"
+    },
+    {
+      "id": "log_1782235898433_wwnjs",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Consoles PlayStation 5 Digital: -1 (Nouveau stock: 6)",
+      "timestamp": "2026-06-23T17:31:38.433Z"
+    },
+    {
+      "id": "log_1782235898668_8339b",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Consoles PlayStation 5 Digital: -1 (Nouveau stock: 5)",
+      "timestamp": "2026-06-23T17:31:38.668Z"
+    },
+    {
+      "id": "log_1782235898886_1glb1",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Consoles PlayStation 5 Digital: -1 (Nouveau stock: 4)",
+      "timestamp": "2026-06-23T17:31:38.886Z"
+    },
+    {
+      "id": "log_1782235907605_9b0gl",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Consoles PlayStation 5 Digital (4 en stock)",
+      "timestamp": "2026-06-23T17:31:47.605Z"
+    },
+    {
+      "id": "log_1782235918692_jzma1",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Câbles HDMI High-Speed (0 en stock)",
+      "timestamp": "2026-06-23T17:31:58.692Z"
+    },
+    {
+      "id": "log_1782235931824_pyzoe",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Câbles HDMI High-Speed (0 en stock)",
+      "timestamp": "2026-06-23T17:32:11.824Z"
+    },
+    {
+      "id": "log_1782235956320_8ia7p",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 5)",
+      "timestamp": "2026-06-23T17:32:36.320Z"
+    },
+    {
+      "id": "log_1782235957306_f1t5d",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 4)",
+      "timestamp": "2026-06-23T17:32:37.306Z"
+    },
+    {
+      "id": "log_1782235957527_dqaor",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 3)",
+      "timestamp": "2026-06-23T17:32:37.527Z"
+    },
+    {
+      "id": "log_1782235957708_5e4cd",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 2)",
+      "timestamp": "2026-06-23T17:32:37.708Z"
+    },
+    {
+      "id": "log_1782235957864_lc6qf",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 1)",
+      "timestamp": "2026-06-23T17:32:37.864Z"
+    },
+    {
+      "id": "log_1782235958041_7t3ml",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 0)",
+      "timestamp": "2026-06-23T17:32:38.041Z"
+    },
+    {
+      "id": "log_1782235958237_jp3tr",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: -1 (Nouveau stock: 0)",
+      "timestamp": "2026-06-23T17:32:38.237Z"
+    },
+    {
+      "id": "log_1782235980639_htsv3",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Consoles PlayStation 5 Digital (0 en stock)",
+      "timestamp": "2026-06-23T17:33:00.639Z"
+    },
+    {
+      "id": "log_1782236009284_pn6ia",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: +1 (Nouveau stock: 1)",
+      "timestamp": "2026-06-23T17:33:29.284Z"
+    },
+    {
+      "id": "log_1782236009530_vybjo",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: +1 (Nouveau stock: 2)",
+      "timestamp": "2026-06-23T17:33:29.530Z"
+    },
+    {
+      "id": "log_1782236009726_wiqaf",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: +1 (Nouveau stock: 3)",
+      "timestamp": "2026-06-23T17:33:29.726Z"
+    },
+    {
+      "id": "log_1782236009938_ozp19",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Quantité ajustée pour Câbles de chargement Type-C: +1 (Nouveau stock: 4)",
+      "timestamp": "2026-06-23T17:33:29.938Z"
+    },
+    {
+      "id": "log_1782236083260_fjlfu",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Flux Financier enregistré: Entrée - 1$ (Vente snacks)",
+      "timestamp": "2026-06-23T17:34:43.260Z"
+    },
+    {
+      "id": "log_1782236412424_7u2b4",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Création automatique client fidèle: Henrique Landu",
+      "timestamp": "2026-06-23T17:40:12.424Z"
+    },
+    {
+      "id": "log_1782236412425_hkgfu",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Création session de jeu: Henrique Landu (PS5, 17 matchs)",
+      "timestamp": "2026-06-23T17:40:12.425Z"
+    },
+    {
+      "id": "log_1782236663765_haysw",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Paiement validé: Henrique Landu - 26.5$",
+      "timestamp": "2026-06-23T17:44:23.765Z"
+    },
+    {
+      "id": "log_1782237939582_jhmgj",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Stock mis à jour: Câbles HDMI High-Speed (0 en stock)",
+      "timestamp": "2026-06-23T18:05:39.582Z"
+    },
+    {
+      "id": "log_1782324407930_enl5p",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Flux Financier enregistré: Entrée - 1$ (Vente snacks)",
+      "timestamp": "2026-06-24T18:06:47.930Z"
+    },
+    {
+      "id": "log_1782329053462_8xj6f",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Connexion réussie",
+      "timestamp": "2026-06-24T19:24:13.462Z"
+    },
+    {
+      "id": "log_1782335687910_6kjvl",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Connexion réussie",
+      "timestamp": "2026-06-24T21:14:47.910Z"
+    },
+    {
+      "id": "log_1782335727034_b7pcz",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "SUPPRESSION DIRECTE client: Henrique Landu",
+      "timestamp": "2026-06-24T21:15:27.034Z"
+    },
+    {
+      "id": "log_1782335747596_r9teh",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Flux Financier supprimé: Entrée - 1$",
+      "timestamp": "2026-06-24T21:15:47.596Z"
+    },
+    {
+      "id": "log_1782335751095_btwtx",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Flux Financier supprimé: Entrée - 1$",
+      "timestamp": "2026-06-24T21:15:51.095Z"
+    },
+    {
+      "id": "log_1782335889148_2f4q2",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Connexion réussie",
+      "timestamp": "2026-06-24T21:18:09.148Z"
+    },
+    {
+      "id": "log_1782337048722_qpq4i",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Création session de jeu: Erick Gola  (PS5, 10 matchs)",
+      "timestamp": "2026-06-24T21:37:28.722Z"
+    },
+    {
+      "id": "log_1782337069064_26iwt",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Paiement validé (mobile_money): Erick Gola  - 9.6$",
+      "timestamp": "2026-06-24T21:37:49.064Z"
+    },
+    {
+      "id": "log_1782337244389_pk4kh",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Création session de jeu: Lumbo (PS4, 50 matchs)",
+      "timestamp": "2026-06-24T21:40:44.389Z"
+    },
+    {
+      "id": "log_1782337262599_m74vl",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Paiement validé (cash): Lumbo - 17.7$",
+      "timestamp": "2026-06-24T21:41:02.599Z"
+    },
+    {
+      "id": "log_1782337541458_eepf0",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Création session de jeu: Henock  (PS3, 583 matchs)",
+      "timestamp": "2026-06-24T21:45:41.458Z"
+    },
+    {
+      "id": "log_1782337554763_mpg4j",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Paiement validé (card): Henock  - 63.5$",
+      "timestamp": "2026-06-24T21:45:54.763Z"
+    },
+    {
+      "id": "log_1782337565600_dalbf",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Mise à jour consommations session Henock : +4 boissons, +6 snacks",
+      "timestamp": "2026-06-24T21:46:05.600Z"
+    },
+    {
+      "id": "log_1782540426806_3j38u",
+      "userId": "dir-1",
+      "username": "Novacasino",
+      "action": "Connexion réussie",
+      "timestamp": "2026-06-27T06:07:06.806Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1782337069065_hngom",
+      "title": "Validation de paiement",
+      "message": "Directeur Général a validé le paiement de 9.6$ pour la console Console 01 (Client: Erick Gola ).",
+      "type": "payment_validation",
+      "createdAt": "2026-06-24T21:37:49.065Z",
+      "createdBy": "dir-1",
+      "targetAdminId": null
+    },
+    {
+      "id": "notif_1782337262600_jqzye",
+      "title": "Validation de paiement",
+      "message": "Directeur Général a validé le paiement de 17.7$ pour la console Console 01 (Client: Lumbo).",
+      "type": "payment_validation",
+      "createdAt": "2026-06-24T21:41:02.600Z",
+      "createdBy": "dir-1",
+      "targetAdminId": null
+    },
+    {
+      "id": "notif_1782337554764_o1bvd",
+      "title": "Validation de paiement",
+      "message": "Directeur Général a validé le paiement de 63.5$ pour la console Console 11 (Client: Henock ).",
+      "type": "payment_validation",
+      "createdAt": "2026-06-24T21:45:54.764Z",
+      "createdBy": "dir-1",
+      "targetAdminId": null
+    }
+  ],
+  "consoles": [
+    {
+      "id": "c_ps5_1",
+      "name": "Console 01",
+      "type": "ps5",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps5_2",
+      "name": "Console 02",
+      "type": "ps5",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps5_3",
+      "name": "Console 03",
+      "type": "ps5",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps5_4",
+      "name": "Console 04",
+      "type": "ps5",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps4_5",
+      "name": "Console 05",
+      "type": "ps4",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps4_6",
+      "name": "Console 06",
+      "type": "ps4",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps4_7",
+      "name": "Console 07",
+      "type": "ps4",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps4_8",
+      "name": "Console 08",
+      "type": "ps4",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps3_9",
+      "name": "Console 09",
+      "type": "ps3",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps3_10",
+      "name": "Console 10",
+      "type": "ps3",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps3_11",
+      "name": "Console 11",
+      "type": "ps3",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    },
+    {
+      "id": "c_ps3_12",
+      "name": "Console 12",
+      "type": "ps3",
+      "status": "active",
+      "createdAt": "2026-06-22T08:45:19.339Z",
+      "createdBy": "dir-1"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-default",
+      "name": "Salle Principale",
+      "description": "La salle de jeux principale par défaut",
+      "createdAt": "2026-06-23T15:21:08.112Z",
+      "createdBy": "dir-1",
+      "adminId": null,
+      "cashierIds": []
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-manette",
+      "name": "Manettes PS4/PS5",
+      "category": "Ps5",
+      "quantity": 25,
+      "minQuantity": 4,
+      "location": "Armoire Réserve A",
+      "lastUpdated": "2026-06-23T17:11:59.646Z",
+      "updatedBy": "Directeur Général"
+    },
+    {
+      "id": "inv-hdmi",
+      "name": "Câbles HDMI High-Speed",
+      "category": "Câbles HDMI",
+      "quantity": 0,
+      "minQuantity": 0,
+      "location": "Boîte Câblerie",
+      "lastUpdated": "2026-06-23T18:05:39.581Z",
+      "updatedBy": "Directeur Général"
+    },
+    {
+      "id": "inv-charge",
+      "name": "Câbles de chargement Type-C",
+      "category": "Cables de chargement",
+      "quantity": 4,
+      "minQuantity": 3,
+      "location": "Boîte Câblerie",
+      "lastUpdated": "2026-06-23T17:33:29.938Z",
+      "updatedBy": "Directeur Général"
+    },
+    {
+      "id": "inv-tv",
+      "name": "Télévisions Smart TV 4K",
+      "category": "Tele",
+      "quantity": 8,
+      "minQuantity": 1,
+      "location": "Salle Principale / Stock",
+      "lastUpdated": "2026-06-23T16:22:29.399Z",
+      "updatedBy": "Système"
+    },
+    {
+      "id": "inv-ps3",
+      "name": "Consoles PlayStation 3 Slim",
+      "category": "PS3",
+      "quantity": 4,
+      "minQuantity": 1,
+      "location": "Étagère Consoles",
+      "lastUpdated": "2026-06-23T16:22:29.399Z",
+      "updatedBy": "Système"
+    },
+    {
+      "id": "inv-ps4",
+      "name": "Consoles PlayStation 4 Pro",
+      "category": "Ps4",
+      "quantity": 6,
+      "minQuantity": 2,
+      "location": "Étagère Consoles",
+      "lastUpdated": "2026-06-23T16:22:29.399Z",
+      "updatedBy": "Système"
+    },
+    {
+      "id": "inv-ps5",
+      "name": "Consoles PlayStation 5 Digital",
+      "category": "Consoles PS5",
+      "quantity": 0,
+      "minQuantity": 3,
+      "location": "Étagère Consoles",
+      "lastUpdated": "2026-06-23T17:33:00.638Z",
+      "updatedBy": "Directeur Général"
+    },
+    {
+      "id": "inv-boissons",
+      "name": "Stock Boissons",
+      "category": "Boissons",
+      "quantity": 106,
+      "minQuantity": 20,
+      "location": "Réserve Boissons / Frigo",
+      "lastUpdated": "2026-06-24T21:46:05.598Z",
+      "updatedBy": "Directeur Général"
+    },
+    {
+      "id": "inv-snacks",
+      "name": "Stock Snacks",
+      "category": "Snacks",
+      "quantity": 105,
+      "minQuantity": 20,
+      "location": "Étagère Snacks",
+      "lastUpdated": "2026-06-24T21:46:05.599Z",
+      "updatedBy": "Directeur Général"
+    }
+  ],
+  "finance": [
+    {
+      "id": "fin-sess-sess_1782337048721_ixezb",
+      "type": "income",
+      "category": "Session PlayStation",
+      "amount": 9.6,
+      "description": "Session validée pour le client Erick Gola  (Console: Console 01) [Mode: Mobile Money]",
+      "date": "2026-06-24",
+      "createdBy": "dir-1",
+      "createdByName": "Directeur Général",
+      "createdAt": "2026-06-24T21:37:49.063Z",
+      "sessionId": "sess_1782337048721_ixezb",
+      "paymentMethod": "mobile_money"
+    },
+    {
+      "id": "fin-sess-sess_1782337244388_ao37a",
+      "type": "income",
+      "category": "Session PlayStation",
+      "amount": 17.7,
+      "description": "Session validée pour le client Lumbo (Console: Console 01) [Mode: Cash]",
+      "date": "2026-06-24",
+      "createdBy": "dir-1",
+      "createdByName": "Directeur Général",
+      "createdAt": "2026-06-24T21:41:02.598Z",
+      "sessionId": "sess_1782337244388_ao37a",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "fin-sess-sess_1782337541457_z7sn5",
+      "type": "income",
+      "category": "Session PlayStation",
+      "amount": 63.5,
+      "description": "Session validée pour le client Henock  (Console: Console 11) [Mode: Carte de crédit]",
+      "date": "2026-06-24",
+      "createdBy": "dir-1",
+      "createdByName": "Directeur Général",
+      "createdAt": "2026-06-24T21:45:54.763Z",
+      "sessionId": "sess_1782337541457_z7sn5",
+      "paymentMethod": "card"
+    }
+  ],
+  "loyalClients": [
+    {
+      "id": "lc_1782236412423_ypwu",
+      "name": "Henrique Landu",
+      "phone": "+243893199359",
+      "notes": "Enregistré automatiquement depuis une session de jeu",
+      "createdAt": "2026-06-23T17:40:12.423Z"
+    }
+  ]
+}

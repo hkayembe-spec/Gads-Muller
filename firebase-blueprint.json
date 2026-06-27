@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "users": {
+      "title": "User Account",
+      "description": "A system operator, admin, or director",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string", "enum": ["director", "admin", "user"] },
+        "createdBy": { "type": "string" },
+        "isLocked": { "type": "boolean" },
+        "status": { "type": "string", "enum": ["online", "offline", "locked"] },
+        "lastActive": { "type": "integer" }
+      }
+    },
+    "consoles": {
+      "title": "PlayStation Console",
+      "description": "A playstation console in the casino salle",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "type": { "type": "string", "enum": ["ps3", "ps4", "ps5"] },
+        "status": { "type": "string", "enum": ["active", "maintenance"] },
+        "createdAt": { "type": "string" },
+        "createdBy": { "type": "string" }
+      },
+      "required": ["id", "name", "type", "status"]
+    },
+    "sessions": {
+      "title": "Client Session",
+      "description": "A game room session with matches count and cost",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "clientName": { "type": "string" },
+        "consoleNumber": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "consoleType": { "type": "string", "enum": ["ps3", "ps4", "ps5"] },
+        "matchesCount": { "type": "integer" },
+        "costPerMatch": { "type": "number" },
+        "totalAmount": { "type": "number" },
+        "paymentStatus": { "type": "string", "enum": ["pending", "paid"] },
+        "paymentValidatedBy": { "type": "string" },
+        "createdBy": { "type": "string" },
+        "createdByName": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "deleteRequests": {
+      "title": "Delete Request",
+      "description": "A request by an operator to delete a session",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "targetId": { "type": "string" },
+        "clientName": { "type": "string" },
+        "consoleNumber": { "type": "string" },
+        "requestedBy": { "type": "string" },
+        "requestedByName": { "type": "string" },
+        "requestedAt": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "resolvedBy": { "type": "string" },
+        "resolvedAt": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "users": {
+      "schema": "users",
+      "description": "Users of the system"
+    },
+    "consoles": {
+      "schema": "consoles",
+      "description": "Available Playstation Consoles"
+    },
+    "sessions": {
+      "schema": "sessions",
+      "description": "Active and past sessions"
+    },
+    "deleteRequests": {
+      "schema": "deleteRequests",
+      "description": "Requests to delete database content"
+    }
+  }
+}

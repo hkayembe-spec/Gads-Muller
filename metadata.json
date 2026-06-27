@@ -1,0 +1,6 @@
+{
+  "name": "Nova Casino",
+  "description": "Application de gestion pour salle de jeux PlayStation Nova Casino - Thème Noir et Jaune, rapports multi-utilisateurs et contrôle à distance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
